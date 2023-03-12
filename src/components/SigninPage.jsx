@@ -114,7 +114,8 @@ function SigninPage () {
     const signInWithGoogle = async () => {
         try {
             await signInWithPopup(auth, googleProvider);
-            window.open("/home",'_self');
+            // CREATING PROBLEMS SOLVE IT
+            window.open("https://library-app-c6bf9.web.app/home",'_self');
         }
         catch (err) {
             console.error(err);
