@@ -5,7 +5,7 @@ import WIPimage from '../images/WIP.jpg'
 const Container = styled.div`
     /* background-color: #fff7f2; */
     position: fixed;
-    top: 0;
+    top: 0; 
     bottom: 0;
     left: 0;
     right: 0;
